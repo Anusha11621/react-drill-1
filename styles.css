@@ -1,0 +1,66 @@
+.container{
+    text-align: center;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.maincard{
+    background-color: rgb(242, 242, 242);
+    width: 350px;
+    padding: 10px
+}
+.innercard{
+    background-color: white;
+    /* box-shadow: 5px 5px 20px black; */
+    
+}
+h2{
+    color: orangered;
+}
+.content{
+    padding: 10px;
+    text-align: left;
+}
+p{
+    color: gray;
+}
+img{
+    width:100%;
+    
+}
+.img{
+    position: relative;
+}
+.photo{
+    position:absolute;
+    bottom: 4px;
+    background-color: orangered;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.date{
+    position: absolute;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 10%;
+    right: 10%;
+}
+svg{
+    height: 15px;
+    fill: gray;
+    
+}
+.comments{
+    display: flex;
+    gap: 30px;
+}
